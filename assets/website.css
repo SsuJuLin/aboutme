@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C6C5B9;
+    margin: 0px;
+}
+
+/*header title*/
+header{
+    background-color: #354876;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+nav{
+    background-color: #58688D;
+    text-align: center;
+    font-family: Arial;
+}
+
+nav a{
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover{
+    background-color: #7582A0;
+    color: white;
+}
+
+/*footer */
+footer{
+    background-color: #354876;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    padding: 20px;
+}
+
+main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+article{
+    float: none;
+    width: 99%;
+}
+
+
+.card{
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+.card2{
+    padding: 20px;
+    background-color: #354876;
+    margin: 10px;
+    color: white;
+}
+
+.bgfloatpic1{
+    background-image: url(bg1.jpg);
+}
+
+.icon2{
+    width:37px;
+    height:37px;
+}
+.cd_skill{
+    float:left;
+    width:35%;
+    position: relative;
+    top:20px;
+    left:50px;
+}
+.ps_text{
+    position:relative;
+    left:10px;
+    top:-7px;
+    font-size:28px;
+    font-weight:bold;
+    font-family:xo;
+}
+
+.progress{
+    width: 70%;
+    height: 22px; /*軸寬度*/
+    background-color: #D0D0D0;
+    border-radius: 10px;
+    font-size:20px;
+    color:white;
+    position:relative;
+    top:-20px;
+    left:15px;
+}
+.bar{
+    position:relative;
+    top:-20px;
+}
+.bar1{
+    position:relative;
+    top:-40px;
+}
+.bar2{
+    position:relative;
+    top:-60px;
+}
+.bar3{
+    position:relative;
+    top:-80px;
+}
+.text{
+    font-size:20px;
+    position:relative;
+    top:-7px;
+    left:15px;
+}
+.h_skill{
+    background-color:#354876;
+    border-radius: 10px;
+    text-align: right;
+    padding-right:10px;
+}
+#html{
+    width:75%;
+    animation-name: skillhtml;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#java{
+    width:65%;
+    animation-name: skilljava;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#python{
+    width:70%;
+    animation-name: skillpython;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#mysql{
+    width:50%;
+    animation-name: skillmysql;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#jsp{
+    width:70%;
+    animation-name: skilljsp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes skillhtml {
+    from{
+        width:10%;
+    }
+    to{
+        width:60%;
+    }
+}
+@keyframes skilljava {
+    from{
+        width:10%;
+    }
+    to{
+        width:85%;
+    }
+}
+@keyframes skillpython {
+    from{
+        width:10%;
+    }
+    to{
+        width:80%;
+    }
+}
+@keyframes skillmysql {
+    from{
+        width:10%;
+    }
+    to{
+        width:60%;
+    }
+}
+@keyframes skilljsp {
+    from{
+        width:10%;
+    }
+    to{
+        width:75%;
+    }
+}
+
+.proj{
+    columns: 3;column-rule:silver solid 2px ;
+    column-gap: 30px;
+    padding: 30px 50px 30px 50px ;
+    column-width: 70px;
+}
+
+.wwn{
+    -webkit-column-break-before: always;
+}
+
+.ppp{
+    position:relative;
+    top:-20px;
+    left:40px;
+}
+
+.icon{
+    width: 37px;
+    height: 37px;
+    margin-top: 40px;
+}
+.icon:hover{
+    animation: myfirst 0.5s infinite;
+}
+
